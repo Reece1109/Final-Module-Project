@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Landing Page */
+.bg-image {
+    background-image: url(https://i.postimg.cc/TPwz9tPz/pexels-saeid-anvar-827209.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+
+/* Admin Page */
+
+
+
+/* Products */
+
+
+
+/* Checkout */
