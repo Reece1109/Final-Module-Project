@@ -13,7 +13,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+}
 
+.heading{
+    font-family: 'Hanalei Fill', cursive;
+font-family: 'Karla', sans-serif;
+padding-top: 100px;
 }
 
 
@@ -25,5 +30,5 @@
 /* Products */
 
 
-
 /* Checkout */
+
