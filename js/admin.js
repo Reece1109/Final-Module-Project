@@ -20,7 +20,7 @@ JSON.parse(localStorage.getItem('products ')) : [
         id: 3,
         productName: "Sintra Portrait",
         imageUrl: "https://i.postimg.cc/FRBx6GMC/Cities-in-Portugal-Sintra.webp",
-        price: "R1750",
+        rice: "R1750",
         description:"Sintra is the former favored summer residence of the Portuguese royal family and much of their nobility. For this reason, there are many gorgeous estates and castles to explore around this city"
     },
 
@@ -33,20 +33,14 @@ JSON.parse(localStorage.getItem('products ')) : [
     }
 ];
 
-let images = document.querySelector(`.images`)
+let images = document.querySelector('#tbody')
 
 function display(){
     products.forEach((item)=>{
-        images.innerHTML += `
-        <div class="card text-start" id="landscape" style="width: 18rem;">
-                <img src="${item.imageUrl}" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="Lisbon-Portrait">${item.productName}</h5>
-                <p class="card-text d-3">${item.description}</p>
-            </div>
-            <div class="price"><p id="price" class="card-text d-3">${item.price}</p></div>
-            <div id="card-footer" class="pb-3"><a href="#" id="card-button" class="btn btn-primary mx-1 ">Go somewhere</a></div>
-            `
-    })
-}
-display();
+        images.innerHTML += `       <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@md</td>
+      </tr>`})
+    }

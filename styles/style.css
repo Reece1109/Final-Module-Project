@@ -32,3 +32,46 @@ padding-top: 100px;
 
 /* Checkout */
 
+
+
+/* card */
+.card{
+    height: 78vh;
+    margin: auto;
+    margin-top: 3vh;
+    background-color: rgba(255, 255, 255, 0.822);
+    font-weight: 500;
+}
+
+.card-text{
+    font-size: 0.76rem;
+}
+#prod-sec{
+    background-image: url(https://i.postimg.cc/QCjr8kCk/HD-wallpaper-woman-using-nikon-dslr-camera.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.card-img-top{
+    width: 40vh;
+    position: relative;
+    left: -10%;
+}
+
+/* price */
+.price{
+    padding-bottom: 1vh;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+#price{
+    font-size: 1rem;
+}
+/* button */
+.card-footer{
+    padding-bottom: 7vh;
+}
+
+.card-button{
+    padding-left: 10rem;
+}
