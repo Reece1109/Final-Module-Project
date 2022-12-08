@@ -45,7 +45,7 @@ function display(){
                 <p class="card-text d-3">${item.description}</p>
             </div>
             <div class="price"><p id="price" class="card-text d-3">${item.price}</p></div>
-            <div id="card-footer" class="pb-3"><a href="#" id="card-button" class="btn btn-primary mx-1 ">Go somewhere</a></div>
+            <div id="card-footer" class="pb-3"><a href="#" id="card-button" class="btn btn-primary mx-1 ">Purchase</a></div>
             `
     })
 }
