@@ -22,18 +22,6 @@ padding-top: 100px;
 }
 
 
-
-/* Admin Page */
-
-
-
-/* Products */
-
-
-/* Checkout */
-
-
-
 /* card */
 .card{
     height: 78vh;
@@ -47,7 +35,9 @@ padding-top: 100px;
     font-size: 0.76rem;
 }
 #prod-sec{
-    background-image: url(https://i.postimg.cc/QCjr8kCk/HD-wallpaper-woman-using-nikon-dslr-camera.jpg);
+    /* background-image: url(https://i.postimg.cc/QCjr8kCk/HD-wallpaper-woman-using-nikon-dslr-camera.jpg); */
+    background-color: grey;
+    overflow-y: scroll;
     background-size: cover;
     height: 100vh;
 }
@@ -55,7 +45,7 @@ padding-top: 100px;
 .card-img-top{
     width: 40vh;
     position: relative;
-    left: -10%;
+    left: -4.3%;
 }
 
 /* price */
@@ -94,9 +84,26 @@ padding-top: 100px;
 .imageC{
     background-image: url(https://i.postimg.cc/QCjr8kCk/HD-wallpaper-woman-using-nikon-dslr-camera.jpg);
     background-size: cover;
-    
+
 }
 .table{
     background-color: rgba(123, 122, 122, 0.637);
-    
+
+}
+
+.btn{
+    padding: 10px 10px;
+    border:none;
+    border: radius 5px;
+    background-color: deepskyblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.92;
+    margin:5px;
+    cursor: pointer;
+}
+
+.imageF,.btn{
+    display:inline-block;
+    padding:10px 20px;
 }
