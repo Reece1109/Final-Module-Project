@@ -91,8 +91,8 @@ Object.keys(products).forEach((item) => {
         <td>R${products[item].price}</td>
         <td><button  type="button" class="btn btn-dark" onclick="remove()">Del</button></td>
         </tr>`;});
+        display();
 }
-display();
 
 // Add Button
 let prophotos = document.querySelector('.prophotos')
@@ -124,8 +124,8 @@ localStorage.setItem('myCheckout', JSON.stringify(checkout))
 products = JSON.parse(localStorage.getItem('image'));
 Object.keys(MyTable).forEach((item) => {
 
-    console.log(allCars[key].type);
-    myCar.innerHTML +=
+    console.log([items].type);
+    MYTable.innerHTML +=
                 `
                     <div class="col-md-4">
                         <div class="card" style="width: 18rem;">
@@ -149,34 +149,36 @@ Object.keys(addBtn).forEach((item) => {
             console.log(checkout)
             localStorage.setItem('myCheckout', JSON.stringify(checkout));
         })
-    }
-)
+    })
 
-let Check-out = [];
+let Checkout = [];
 localStorage.setItem('myCheckout', JSON.stringify(checkout))
 //parse into localStorage
-let images = JSON.parse(localStorage.getItem('cars'));
-Object.keys(allCars).forEach((carKey)) => {
-//show names of cars in console
-    let w = [];
-    let  = document.querySelector("#myCars");
-    console.log([car].type);
-    myCar.innerHTML +=
+let images = JSON.parse(localStorage.getItem('MyTable'));
+Object.keys(MyTable).forEach((item) => {
 
-`
+//Show names of images in console
+    let w = [];
+    let  = document.querySelector("#MyTable");
+    console.log([car].type);
+    item.innerHTML +=
+    Object.keys(MyTable).forEach((item) => {
+        console.log([items].type);
+        MYTable.innerHTML +=
+    `
+                
                     <div class="col-md-4">
                         <div class="card" style="width: 18rem;">
-                            <img src=${w.image} class="card-img-top" alt="...">
-                                <div class="images">
-                                    <p class="image">${w.name}</p>
-                                    <p class="">${w.price}</p>
-                                    <button class="addToCart" href="#">Purchase</button>
+                            <img src=${item.id} class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class=" ">${item.name}</p>
+                                    <p class=" ">${item.price}</p>
+                                    <p class=" ">${item.description}</p>
+                                    <button class="addToCart"  id='${item.purchase}'href="#">Purchase</button>
                                 </div>
                         </div>
                     </div>
-`
-};
-//go to array
-// filte array by id
-// retieved obj to cart
-// store
+                
+    `
+})
+})

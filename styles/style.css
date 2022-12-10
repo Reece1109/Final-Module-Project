@@ -69,7 +69,7 @@ padding-top: 100px;
 /* Contact */
 
 #contact{
-    background-image: url(https://i.postimg.cc/QCjr8kCk/HD-wallpaper-woman-using-nikon-dslr-camera.jpg);
+    background-image:url(https://i.postimg.cc/QCjr8kCk/HD-wallpaper-woman-using-nikon-dslr-camera.jpg);
     background-size: cover;
     padding-top: 100px;
     height: 150vh;
@@ -78,6 +78,7 @@ padding-top: 100px;
 
 .contact{
     font-size: 100px;
+
 }
 
 /* Admin Page */
